@@ -1,0 +1,73 @@
+## Correct and avoid AI stylistic tropes
+Edit for precision, natural authorial voice, and economy, following the useful principles of William Zinsser's *On Writing Well*. The patterns below are prompts for editorial judgment, not bans or proof of AI authorship. Remove a pattern when it is repetitive, vague, overstated, or distracts from the argument; retain a useful contrast, parallelism, technical term, or punctuation when it serves the text. Avoid flattening the author's distinctive prose or replacing precise mathematical language with simpler but inaccurate words.
+1. **Counted symmetry.**  
+   examples: “One spectral filter, two notations”; “Two ICs Answer Two Questions.”  
+   These sound like presentation titles engineered for memorability.
+2. **The recurring “buys” metaphor.**  
+   examples: “What the linear component buys”; “what label-dependent weights can buy”; “How much GLS buys.”  
+   The same conversational device is applied to unrelated mathematical results.
+3. **Corrective antithesis.**  
+   examples: “The answer is about a joint spectrum, not the condition number of one matrix.”  
+   The distinction matters, but this corrective sentence structure recurs excessively.
+4. **An imaginary misconception followed by a reveal.**  
+   examples: “Ridge regression is often introduced as a numerical repair for collinearity. That description is incomplete.”  
+   The isolated correction manufactures drama around an ordinary explanation.
+5. **Defending against an objection nobody raised.**  
+   examples: “That is not an omission”; “The difference is not a contradiction.”  
+   Both could give the mathematical reason directly.
+6. **Grand compression claims.**  
+   examples: “The argument in one sentence”; later, “The book’s argument fits in one sentence.”  
+   The repeated promise of a single explanation feels promotional.
+7. **Management-slide slogans.**  
+   examples: “Structure beats tuning.” “The penalty matters.” “The criteria disagree.”  
+   These headings add a rehearsed punchiness to numerical findings.
+8. **Manufactured numbers of lessons.**  
+   examples: “Four facts stand out”; “adds two lessons”; “A transformer adds three things to a head.”  
+   The summaries repeatedly arrive in conveniently counted packages.
+9. **Over-polished mirror sentences.**  
+   examples: “Attention retrieves from the context, and the MLP retrieves from the training corpus.”  
+   The symmetry makes the claim sound cleaner and more categorical than its qualifications warrant.
+10. **Anthropomorphizing mathematical objects.**  
+    examples: Ridge “decides”; an eigendirection “prefers infinite shrinkage.”  
+    Repeated agency verbs give estimators personalities instead of describing their behavior.
+11. **Forced economic metaphors.**  
+    examples: “The calculation exposes the information purchased by smoothness”; “the zero atom prices hidden signal.”  
+    These are particularly mannered ways of describing a rate or risk decomposition.
+12. **Staging the exposition as a succession of questions.**  
+    examples: “A nonlinear model raises an additional question: which geometry should the data select?” Later: “Here the question changes…”  
+    The prose keeps introducing its own agenda.
+13. **Tutorial headings that explain the explanation.**  
+    examples: “What the bound says.” “Why it holds.” “What the three conditions say.”  
+    Repetition makes the reader feel continually shepherded.
+14. **Announcing importance.**  
+    examples: “This distinction matters even when two forecasts have similar IC.”  
+    The following calculation can establish the importance without the announcement.
+15. **Tour-guide transitions.**  
+    examples: “Back to finance.” “Forecast weights become portfolio weights.”  
+    These scripted segues contribute to a lecture-video voice.
+16. **Excessive promises about adjacent chapters.**  
+    examples: “The next chapter measures…”; “The next chapter identifies conditions…”  
+    These accumulate alongside chapter-opening roadmaps and closing takeaways.
+17. **Consultancy vocabulary.**  
+    examples: “An Operational Playbook”; “Freeze the geometry”; “Spectrum-First Benign-Overfitting Audit.”  
+    Straightforward mathematical procedures acquire managerial branding.
+18. **Moralized precision.**  
+    examples: “Honest constants”; “honest validation”; “Use calibrated language.”  
+    “Honest” adds an approving tone without specifying the statistical property intended.
+19. **Theatrical scope disclaimers.**  
+    examples: “Not a classification of every conceivable infinite-width construction.”  
+    The limitation is legitimate; “every conceivable” inflates the rebuttal.
+20. **Repeating a caveat after already making it.**  
+    examples: “It does not bound the error of estimating the coefficients…” is followed shortly by “It does not bound coefficient-estimation error.”  
+    This is concrete redundancy.
+21. **Recap inflation through boxes.**  
+    examples: Advice to compare local linear regression with smoothing splines and report tuning parameters is immediately repeated in the “Two Baselines” box.  
+    The box largely repackages the preceding paragraph.
+22. **Results converted into general admonitions.**  
+    examples: “The short-window return examples add another discipline…”; “Fourth, more computation is not always better.”  
+    These introduce a schoolmasterly moral after a specific calculation.
+23. **Inflated significance and promotional language.** Replace claims that a result is transformative, groundbreaking, pivotal, or a testament to its importance with the actual contribution and evidence.
+24. **Vague attribution and unsupported authority.** Replace phrases such as “experts agree” or “studies have shown” with a specific, verified source and the claim it supports, or qualify/remove the assertion.
+25. **Formulaic filler and pseudo-analysis.** Remove generic openings, boilerplate conclusions, empty phrases such as “in today's rapidly evolving landscape,” and stock “challenges and future prospects” paragraphs that do not state a concrete problem or result.
+26. **Decorative present participles and empty connections.** Repeated endings such as “highlighting the importance of...” or “underscoring its potential...” often merely restate a claim; explain the causal or mathematical connection instead.
+27. **Mechanical uniformity.** Avoid repeated paragraph templates, sentence rhythms, transitions, and overlong or ornate word choices when they diminish clarity. Use technical vocabulary where it is warranted; do not treat a word list or em dash as an authorship test.
